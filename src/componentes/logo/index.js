@@ -1,13 +1,17 @@
-import logo from '../../imagens/logo.svg'
+import logo from '../../imagens/logo-pokemon.png'
 import './estilo.css'
 
 function Logo() {
-    return(
+    return (
         <div className='logo'>
-            <img className= 'logo-imagem' src={logo} alt='logo'></img>
-            <p><strong>Frois</strong> Books</p>
+            <div className='logo-imagem'>
+                <img src={logo} alt='logo' />
+            </div>
+            <div className='nomeBaitola'>
+                <p><strong>Frois</strong>Pokemons</p>
+            </div>
         </div>
     )
-} 
+}
 
-export default Logo
+export default Logo;

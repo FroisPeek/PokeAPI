@@ -1,9 +1,30 @@
 .logo {
+  background-color: #ff0000;
   display: flex;
-  font-size: 30px;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px;
+  justify-content: center;
 }
 
 .logo-imagem {
-  margin-right: 10px;
+  display: flex;
+  justify-content: center; /* Centraliza a imagem horizontalmente */
+  align-items: center; /* Centraliza a imagem verticalmente */
 }
 
+.logo-imagem img {
+  width: 400px;
+}
+
+.nomeBaitola {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-top: 20px; /* Adiciona margem acima do parágrafo */
+}
+
+.nomeBaitola p {
+  margin: 0; /* Remove as margens padrão do parágrafo */
+  font-size: 1.5em; /* Tamanho da fonte */
+  color: #ffffff; /* Cor do texto */
+}
