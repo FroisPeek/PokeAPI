@@ -1,4 +1,4 @@
-# Creating REACT + API
+# PRIMEIRO PROJETO FEITO USANDO JS E REACT
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
